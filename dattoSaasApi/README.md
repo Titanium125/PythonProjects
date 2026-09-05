@@ -3,6 +3,10 @@ This script is designed to be used with the Datto SaaS mailbox protection. It wo
 Create a file in this directory called ".env"
 Add your Datto api keys as strings in the .env file. 
 
+Format of .env file:
+DATTO_PUBLIC_KEY="Your_Public_key_Here"
+DATTO_SECRET_KEY="Your_secret_Key_Here"
+
 You will also want to review the imports at the top of each file to ensure you have what you need, but you'll likely need to install requests, json, and dotenv.
 I recommend using pip for this, but that's up to you. 
 
