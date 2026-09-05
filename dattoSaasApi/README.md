@@ -1,5 +1,6 @@
 This script is designed to be used with the Datto SaaS mailbox protection. It works with both M365 and Google Workspace mailboxes. 
 
+Create a file in this directory called ".env"
 Add your Datto api keys as strings in the .env file. 
 
 You will also want to review the imports at the top of each file to ensure you have what you need, but you'll likely need to install requests, json, and dotenv.
